@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-black-bg box-border scroll-smooth
+    }
+
+    li {
+        @apply p-4 text-[16px] font-[700] text-white cursor-pointer tracking-[0.02em]
+    }
+}
