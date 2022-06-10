@@ -2,6 +2,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
+
       keyframes:{
         scale_up_tr:{
           '0%' : { transform: 'scale(0.5)',
