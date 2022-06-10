@@ -21,6 +21,7 @@ scale_up_tr: 'scale_up_tr 0.45s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
       'people-lemon': '#C0EB7E',
       'signup-lemon': '#80CD09',
       'logo' : 'linear-gradient(95deg, #84FD4F -25.32%, #CCFA84 137.5%)',
+      'btn-bg': 'linear-gradient(95deg, #D0FE89 -25.32%, #95E50A 93.62%, #D6FB9D 116.91%)',
       'black': '#000000',
       
     },
