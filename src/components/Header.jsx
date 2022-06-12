@@ -1,8 +1,6 @@
 import React from 'react'
 import landingimage from '../assets/bgimage.png'
-import blackdot from '../assets/blackdot.png'
 import whitedot from '../assets/whitedot.png'
-import greendot from '../assets/greendot.png'
 import playbtn from '../assets/playbtn.png'
 import userone from '../assets/userone.png'
 import usertwo from '../assets/usertwo.png'
@@ -38,7 +36,7 @@ const Header = () => {
        <p className='text-people-lemon text-[12px] font-[400] leading-[16px] translate-y-[10px] lsmall:translate-y-[20px]'>400 people online</p>
      </div>
       </div>
-      <div className="flex justify-center items-center flex-1 my-[20px] mx-[30px] lg:mt-[60px]">
+      <div className="flex justify-center items-center flex-1 my-[20px] mx-[30px] bg-greenbg-one w-[728px] h-[636px] lg:mt-[60px]">
         <img src={landingimage} alt="Landing page" className='w-[100%] h-[100%]'/>
       </div>
     </div>

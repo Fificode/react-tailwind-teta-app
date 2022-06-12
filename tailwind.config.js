@@ -2,7 +2,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
-
+backgroundImage: {
+'greenbg-one': "('/assets/greenbgone.png')"
+},
       keyframes:{
         scale_up_tr:{
           '0%' : { transform: 'scale(0.5)',
@@ -13,8 +15,19 @@ module.exports = {
       },
       animation: {
 scale_up_tr: 'scale_up_tr 0.45s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
+      },
+        scale_up_center:{
+          '0%' : { transform: 'scale(0.5)'
+        },
+'100%': {transform: 'scale(1)'
+},
       }
-    },
+      },
+      animation: {
+scale_up_center: 'scale_up_center 0.45s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
+      },
+
+    
     colors: {
       'black-bg': '#080B10',
       'white': '#ffffff',
