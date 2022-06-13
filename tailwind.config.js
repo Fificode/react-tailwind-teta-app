@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
 backgroundImage: {
-'greenbg-one': "('/assets/greenbgone.png')"
+'greenbg-one': "('/assets/greenbgone.png')",
+'greenbg-two': "('/assets/greenbgtwo.png')",
 },
       keyframes:{
         scale_up_tr:{
@@ -40,6 +41,7 @@ scale_up_center: 'scale_up_center 1s 4s 1 forwards',
       'signup-lemon': '#80CD09',
       'logo' : 'linear-gradient(95deg, #84FD4F -25.32%, #CCFA84 137.5%)',
       'btn-bg': 'linear-gradient(95deg, #D0FE89 -25.32%, #95E50A 93.62%, #D6FB9D 116.91%)',
+      'commit-bg': 'linear-gradient(104.19deg, #283234 0.08%, #243133 48.88%, #080B10 100%)',
       'black': '#000000',
       
     },
