@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
 backgroundImage: {
-'greenbg-one': "('/assets/greenbgone.png')",
-'greenbg-two': "('/assets/greenbgtwo.png')",
+'greenbg-one': "url('/assets/greenbgone.png')",
+'greenbg-two': "url('/assets/greenbgtwo.png')",
 },
       keyframes:{
         scale_up_tr:{
@@ -17,7 +17,7 @@ backgroundImage: {
       animation: {
 scale_up_tr: 'scale_up_tr 0.45s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
       },
-        scale_up_center:{
+        move_forward:{
           'from' : { transform: 'translateY(0em)'
         },
 'to': {transform: 'translateY(3em)'
@@ -30,7 +30,7 @@ scale_up_tr: 'scale_up_tr 0.45s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
         // animationDelay: '4s',
         // animationIterationCount: '1',
         // animationFillMode: 'forwards',
-scale_up_center: 'scale_up_center 1s 4s 1 forwards',
+move_forward: 'move_forward 1s 4s 1 forwards',
       },
 
     

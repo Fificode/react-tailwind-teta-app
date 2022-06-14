@@ -3,7 +3,7 @@ import bgimage from '../assets/secondimage.png'
 import charticon from '../assets/baricontwo.png'
 import charticontwo from '../assets/baricon.svg'
 import greendot from '../assets/greendot.png'
-import blackdot from '../assets/blackdot.png'
+import blackdot from '/assets/blackdot-two.svg'
 
 const Commitment = () => {
   return (
