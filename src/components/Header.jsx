@@ -9,9 +9,9 @@ import userfour from '../assets/userfour.png'
 
 const Header = () => {
   return (
-    <div>
-    <div className='flex flex-row xmedium:flex-col'>
-      <div className="flex items-start justify-center flex-1 flex-col mx-[15px] large:mt-[150px] sm:mx-[30px]">
+     
+    <div className='flex flex-row xmedium:flex-col md:mt-[100px]'>
+      <div className="flex items-start justify-center flex-1 flex-col mx-[15px]  sm:mx-[30px]">
        <h2 className='font-bold text-white tracking-[0.02em] text-[40px] leading-[38px] md:text-[72px] md:leading-[68px] '>
          Let’s explore your own <span className="text-btn-bg">VR</span> world
        </h2>
@@ -36,11 +36,15 @@ const Header = () => {
        <p className='text-people-lemon text-[12px] font-[400] leading-[16px] translate-y-[10px] lsmall:translate-y-[20px]'>400 people online</p>
      </div>
       </div>
-      <div className="flex justify-center items-center flex-1 my-[20px] mx-[30px] bg-greenbg-one w-[728px] h-[636px] lg:mt-[60px]">
-        <img src={landingimage} alt="Landing page" className='w-[100%] h-[100%]'/>
-      </div>
-    </div>
-    </div>
+     
+    
+ <div className="flex justify-center items-center flex-1 my-[20px] mx-[30px]  ">
+  <div className="greenbgone mt-[40px]">    
+ <img src={landingimage} alt="Green background landing page" className='w-[100%] h-[100%] '/> </div>
+ </div>
+        </div>
+    
+    
   )
 }
 

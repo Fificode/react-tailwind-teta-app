@@ -4,10 +4,18 @@
 
 @layer base {
     body {
-        @apply bg-black-bg box-border scroll-smooth
+        @apply bg-black-bg box-border scroll-smooth 
     }
 
     li {
         @apply p-4 text-[16px] font-[700] text-white cursor-pointer tracking-[0.02em]
+    }
+}
+@layer components{
+    .greenbgone{
+        @apply bg-[url(assets/greenbgone.png)] bg-no-repeat bg-left-bottom
+    }
+    .greenbgtwo{
+        @apply bg-[url(assets/greenbgtwo.png)] bg-no-repeat bg-right-bottom 
     }
 }

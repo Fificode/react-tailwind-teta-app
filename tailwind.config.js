@@ -2,10 +2,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
-backgroundImage: {
-'greenbg-one': "url('/assets/greenbgone.png')",
-'greenbg-two': "url('/assets/greenbgtwo.png')",
-},
+
       keyframes:{
         scale_up_tr:{
           '0%' : { transform: 'scale(0.5)',
@@ -23,6 +20,7 @@ scale_up_tr: 'scale_up_tr 0.45s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
 'to': {transform: 'translateY(3em)'
 },
       }
+      
       },
       animation: {
         // animationName: 'scale_up_center',
