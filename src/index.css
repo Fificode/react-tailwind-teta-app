@@ -10,7 +10,7 @@
     }
 
     li {
-        @apply p-4 text-[16px] font-[700] text-white cursor-pointer tracking-[0.02em]
+        @apply p-4 text-[16px] font-[700] text-white cursor-pointer tracking-[0.02em] font-dmsans
     }
 }
 @layer components{

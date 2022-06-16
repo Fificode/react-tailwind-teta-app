@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Features from './components/Features';
 import Commitment from './components/Commitment';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Header /> 
     <Features />
     <Commitment />
+    <Footer />
     </>
   );
 }

@@ -2,7 +2,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
-
+fontFamily: {
+  'dmsans': ['DM Sans', 'sans-serif'],
+  'syne': ['Syne', 'sans-serif'],
+},
       keyframes:{
         scale_up_tr:{
           '0%' : { transform: 'scale(0.5)',
@@ -41,6 +44,7 @@ move_forward: 'move_forward 1s 4s 1 forwards',
       'btn-bg': 'linear-gradient(95deg, #D0FE89 -25.32%, #95E50A 93.62%, #D6FB9D 116.91%)',
       'commit-bg': 'linear-gradient(104.19deg, #283234 0.08%, #243133 48.88%, #080B10 100%)',
       'black': '#000000',
+      'footer': 'rgba(125, 125, 125, 0.45)',
       
     },
     screens: {

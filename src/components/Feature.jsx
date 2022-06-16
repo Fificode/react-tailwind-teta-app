@@ -8,7 +8,7 @@ const Feature = ({ text, viewbox, direction}) => {
            <path d={direction} />
          </svg>
          </div>
-<p className='text-white text-center my-2 group-hover:text-black'>{text}</p>
+<p className='text-white text-center my-2 group-hover:text-black font-dmsans'>{text}</p>
     </div>
   )
 }
