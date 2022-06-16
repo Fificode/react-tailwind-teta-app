@@ -1,9 +1,9 @@
 import React from 'react'
 import bgimagetwo from '../assets/landingimgtwo.png'
 import charticon from '../assets/baricontwo.png'
-import charticontwo from '../assets/baricon.svg'
 import greendot from '../assets/greendot.png'
 import blackdot from '../assets/blackdottwo.svg'
+
 
 const Commitment = () => {
   return (
@@ -17,14 +17,16 @@ const Commitment = () => {
     <h1 className='md:text-[56px]  text-[48px] font-[700] leading-[50px] text-white w-[290px] md:w-[504px]'>Commitment we’ve<span className='text-signup-lemon'> developed</span></h1>
     <p className="text-white text-[16px] font-[400] my-[30px] tracking-[0.02em]  w-[290px] md:w-[504px]">We believe responsible development is something we can always work on, responsible design exists to develop a more organized world which leads to better interactions.</p>
     <div className="flex flex-row items-center w-[280px] md:w-[504px] h-[88px] border-[1px] border-white rounded-[10px] bg-commit-bg">
-        <div className="w-[25px] h-[25px] bg-signup-lemon flex justify-center items-center rounded-[7px] ml-[10px]">
+        <div className="w-[25px] h-[25px] bg-signup-lemon flex justify-center items-center rounded-[5px] ml-[10px]">
             <img src={charticon} alt="chart icon" className='w-[15px] h-[15px] bg-signup-lemon' />
         </div>
         <h2 className='text-white text-[18px] md:text-[24px] font-[400] leading-[31px] mx-[20px]'>Immersive learning system</h2>
         <img src={greendot} alt="Green dot" className='w-[8px] h-[8px] mr-[5px] md:ml-[120px]' />
     </div>
     <div className="flex flex-row items-center w-[280px] md:w-[504px] h-[176px] border-[1px] border-white rounded-[10px] bg-signup-lemon my-[20px]">
-    <img src={charticontwo} alt="chart icon" className='w-[30px] h-[30px] -translate-y-[60px] ml-[5px] md:-translate-y-[40px]  md:ml-[10px] rounded-[5px]' />
+        <div className="w-[65px] h-[25px] bg-black flex justify-center items-center rounded-[5px] -translate-y-[60px] ml-[5px] md:-translate-y-[40px] md:ml-[10px]">
+            <svg  viewBox="0 0 512 512" className='w-[15px] h-[15px] fill-signup-lemon'><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM64 256C64 238.3 78.33 224 96 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H96C78.33 288 64 273.7 64 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+        </div>
          <div className="flex flex-col items-center">
         <h2 className='text-black text-[19px] md:text-[24px] font-[700] leading-[31px] md:mr-[95px]'>Responsible Research</h2>
         <p className="text-[14px] md:text-[16px] leading-[21px] font-[400] text-black my-[5px] ml-[20px] md:my-[15px] md:ml-[53px]">To ensure we’re building active learning experiences using innovative technologies, we’re working with universities and investing in research</p>
@@ -32,7 +34,7 @@ const Commitment = () => {
         <img src={blackdot} alt="black dot" className='w-[9px] h-[9px] -translate-y-[55px] mr-[5px] md:mr-[20px] md:-translate-y-[50px] ' />
     </div>
     <div className="flex flex-row items-center w-[280px] md:w-[504px] h-[88px] border-[1px] border-white rounded-[10px] bg-commit-bg">
-        <div className="w-[25px] h-[25px] bg-signup-lemon flex justify-center items-center rounded-[7px] ml-[10px]">
+        <div className="w-[25px] h-[25px] bg-signup-lemon flex justify-center items-center rounded-[5px] ml-[10px]">
             <img src={charticon} alt="chart icon" className='w-[15px] h-[15px] bg-signup-lemon' />
         </div>
         <h2 className='text-white text-[18px] md:text-[24px] font-[400] leading-[31px] mx-[20px]'>Responsible Innovation</h2>
