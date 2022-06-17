@@ -10,14 +10,14 @@ import userfour from '../assets/userfour.png'
 const Header = () => {
   return (
      
-    <div className='flex flex-row xmedium:flex-col md:mt-[100px]'>
+    <div className='flex flex-row xmedium:flex-col mt-[120px]'>
       <div className="flex items-start justify-center flex-1 flex-col mx-[15px]  sm:mx-[30px]">
        <h2 className='font-bold text-white tracking-[0.02em] text-[40px] leading-[38px] md:text-[72px] md:leading-[68px] '>
-         Let’s explore your own <span className="text-btn-bg">VR</span> world
+         Let’s explore your own <span className="text-signup-lemon">VR</span> world
        </h2>
      <p className='text-white text-[16px] font-normal tracking-[0.02em] mt-[30px] font-dmsans md:text-[18px] md:leading-[27px]'>Virtual Reality (VR) is a computer-generated environment with scenes and objects that appear to be real, making the user feel they are immersed in their surroundings.</p>
      <div className="flex flex-row mt-[20px]">
-       <button className='bg-people-lemon text-black rounded-[10px] px-[20px] py-[2px] text-[13px] font-dmsans msmaller:px-[30px] msmaller:py-[2px] msmaller:text-[14px] md:text-[20px] md:px-[40px] md:py-[15px]'>Explore Now</button>
+       <button className='bg-signup-lemon text-black rounded-[10px] px-[20px] py-[2px] text-[13px] font-dmsans msmaller:px-[30px] msmaller:py-[2px] msmaller:text-[14px] md:text-[20px] md:px-[40px] md:py-[15px] hover:bg-people-lemon'>Explore Now</button>
        <div className='border-[1px] border-solid  border-white rounded-[50%] w-[50px] h-[50px] ml-[20px] mr-[15px] cursor-pointer lsmall:mx-[30px]'>
          <img src={playbtn} alt="Play button" className='translate-x-[18px] translate-y-3' />
        </div>
