@@ -17,22 +17,10 @@ fontFamily: {
       animation: {
 scale_up_tr: 'scale_up_tr 0.45s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
       },
-        move_forward:{
-          'from' : { transform: 'translateY(0em)'
-        },
-'to': {transform: 'translateY(3em)'
-},
-      }
+       
       
       },
-      animation: {
-        // animationName: 'scale_up_center',
-        // animationDuration: '1s',
-        // animationDelay: '4s',
-        // animationIterationCount: '1',
-        // animationFillMode: 'forwards',
-move_forward: 'move_forward 1s 4s 1 forwards',
-      },
+     
 
     
     colors: {

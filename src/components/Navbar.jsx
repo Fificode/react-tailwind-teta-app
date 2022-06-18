@@ -29,10 +29,10 @@ const handleClick = () => setNav(!nav);
 </div>
 
 <ul className={!nav ? 'hidden' : 'absolute w-full h-[350px] px-[10px] mt-[50px] bg-black-bg animate-scale_up_tr md:h-[auto]'}>
-<li className='w-full border-b-2 border-signup-lemon'>About us</li>
-<li className='w-full border-b-2 border-signup-lemon'>Our project</li>
-<li className='w-full border-b-2 border-signup-lemon'>Community</li>
-<li className='w-full border-b-2 border-signup-lemon'>Resources</li>
+<li className='w-full'>About us</li>
+<li className='w-full'>Our project</li>
+<li className='w-full'>Community</li>
+<li className='w-full'>Resources</li>
 <div className= 'flex flex-col lsmall:hidden'>
     <button className='pl-[18px] text-[16px] font-[700] text-white bg-transparent text-left py-4 font-dmsans hover:text-signup-lemon'>Sign In</button>
     <button className='px-[30px] py-[10px] rounded-[10px] border-[1px] border-solid border-signup-lemon text-[16px] text-signup-lemon  bg-black-bg font-dmsans hover:text-people-lemon'>Sign Up</button>
